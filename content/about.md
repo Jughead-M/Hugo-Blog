@@ -1,9 +1,8 @@
 +++
-title:  About
+title: About
 date: 2021-11-08
-author = CHEN
+author: CHEN
 
 +++
 
 Do something interesting~
-
