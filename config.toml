@@ -21,6 +21,7 @@ paginate = 10
 	
 [params.footer]
     trademark = true
+	rss = true
     copyright = true
     author = true
 	topText = []
@@ -30,12 +31,12 @@ paginate = 10
     title = "CHENURE"
     subtitle = "Less Is More"
    
-    writtenBy = "Written by"
-    readMore = "Read more"
+    #writtenBy = "Written by"
+    #readMore = "Read more"
     readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    minuteReadingTime = "min read"
+    #newerPosts = "Newer posts"
+    #olderPosts = "Older posts"
+    #minuteReadingTime = "min read"
 	
 	[languages.en.params.logo]
       logoText = "Hello, Friends"
