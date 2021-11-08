@@ -64,7 +64,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "Hello Friend NG"
 
   # Set a background for the homepage
-  backgroundImage = "images/background.jpg"
+  backgroundImage = "/images/background.jpg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
