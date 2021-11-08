@@ -1,9 +1,10 @@
 baseURL = "/"
-#languageCode = "en-us"
-languageCode = "ch-zn"
+languageCode = "en-us"
 title = "CHENURE"
 theme = "hello-friend-ng"
+
 paginate = 10
+copyright = "MonstarLib"
 
 [author]
 	name = "CHEN"
@@ -14,16 +15,9 @@ paginate = 10
 
 	# Subtitle for home
 	homeSubtitle = "奥特曼要打小怪兽？！"
-
-	dateform        = "Jan 2, 2006"
-	dateformShort   = "Jan 2"
-	dateformNum     = "2006-01-02"
-	dateformNumTime = "2006-01-02 15:04"
-
-	author =true
   
 [taxonomies]
-	tag      = "tags"
+	tag = "tags"
     category = "categories" 
 	
 [params.footer]
@@ -46,11 +40,11 @@ paginate = 10
 [menu]
 	[[menu.main]]
 		identifier = "blog"
-		name       = "Blog"
-		url        = "/posts"
+		name = "Blog"
+		url = "/posts"
 	  
 	[[menu.main]]
 		identifier = "about"
-		name       = "About"
-		url        = "/about"
+		name = "About"
+		url = "/about"
 
