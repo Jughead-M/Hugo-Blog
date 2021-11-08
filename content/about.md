@@ -1,8 +1,9 @@
 ---
-title: About
-date: 2021-11-08
+title = "About"
+date = "2021-11-08"
 [ author ]
-  name: CHEN
+  name = "CHEN"
 ---
 
 Do something interesting~
+
