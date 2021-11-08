@@ -64,7 +64,7 @@ disableHugoGeneratorInject = false
   homeSubtitle = "Hello Friend NG"
 
   # Set a background for the homepage
-  backgroundImage = "assets/images/background.jpg"
+  backgroundImage = "images/background.jpg"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   #
@@ -153,7 +153,7 @@ disableHugoGeneratorInject = false
   # Uncomment this if you want a portrait on your start page
   #
    [params.portrait]
-     path     = "/img/image.jpg"
+     path     = "/imgages/image.jpg"
     alt      = "Portrait"
     maxWidth = "50px"
 
