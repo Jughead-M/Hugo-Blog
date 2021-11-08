@@ -31,7 +31,7 @@ paginate = 10
     title = "CHENURE"
     subtitle = "Less Is More"
 	description = "Tesla's Awesome Hugo Site"
-	author = "Nikola Tesla"
+	author = true
     readOtherPosts = "Read other posts"
 	
 	[languages.en.params.logo]
