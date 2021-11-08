@@ -27,7 +27,7 @@ enableEmoji = true
 	enableThemeToggle = true
 
 	# Subtitle for home
-	homeSubtitle = "奥特曼要打小怪兽？！"
+	homeSubtitle = "奥特曼要打小怪兽？！于是，小怪兽变成了奥特曼~"
   
 	dateform = "Jan 2, 2006"
 	dateformShort = "Jan 2"
@@ -59,7 +59,7 @@ enableEmoji = true
 
 [languages]
 	[languages.en]
-		subtitle = "Less Is More"
+		subtitle = "奥特曼的小怪兽"
 
 [menu]
 	[[menu.main]]
