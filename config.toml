@@ -7,7 +7,7 @@ PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
 paginate = 10
-copyright = "Copyright@MonstarLib"
+copyright = "MonstarLib"
 
 enableEmoji = true
 
@@ -41,7 +41,7 @@ enableEmoji = true
 	#rss = true
     copyright = true
     author = true
-	topText = []
+	topText = ["Powered by <a href=\"http://gohugo.io\">Hugo</a>"]
 	
 [params.favicon.color]
     mask = "#1b1c1d"
