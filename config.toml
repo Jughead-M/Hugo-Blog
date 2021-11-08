@@ -5,15 +5,22 @@ title = "CHENURE"
 theme = "hello-friend-ng"
 paginate = 10
 
-[params]
-  # "light" or "dark"
-  defaultTheme = "dark"
-  
-  # Subtitle for home
-  homeSubtitle = "奥特曼要打小怪兽？！"
-
 [author]
-  name = "CHEN"
+	name = "CHEN"
+
+[params]
+	# "light" or "dark"
+	defaultTheme = "dark"
+
+	# Subtitle for home
+	homeSubtitle = "奥特曼要打小怪兽？！"
+
+	dateform        = "Jan 2, 2006"
+	dateformShort   = "Jan 2"
+	dateformNum     = "2006-01-02"
+	dateformNumTime = "2006-01-02 15:04"
+
+	author =true
   
 [taxonomies]
 	tag      = "tags"
@@ -27,24 +34,23 @@ paginate = 10
 	topText = []
 
 [languages]
-  [languages.en]
-    title = "CHENURE"
-    subtitle = "Less Is More"
-	description = "Tesla's Awesome Hugo Site"
-	author = true
-    readOtherPosts = "Read other posts"
-	
-	[languages.en.params.logo]
-      logoText = "Hello, Friends"
-      logoHomeLink = "/"
+	[languages.en]
+		title = "CHENURE"
+		subtitle = "Less Is More"
+		readOtherPosts = "Read other posts"
 
-    [[menu.main]]
-	  identifier = "blog"
-	  name       = "Blog"
-	  url        = "/posts"
+	[languages.en.params.logo]
+		logoText = "Hello, Friends"
+		logoHomeLink = "/"
+
+[menu]
+	[[menu.main]]
+		identifier = "blog"
+		name       = "Blog"
+		url        = "/posts"
 	  
 	[[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about"
+		identifier = "about"
+		name       = "About"
+		url        = "/about"
 
