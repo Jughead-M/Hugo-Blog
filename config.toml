@@ -2,7 +2,60 @@ baseURL = "/"
 languageCode = "en-us"
 title = "CHENURE"
 theme = "hello-friend-ng"
+paginate = 10
 
 [params]
-description = "奥特曼要打小怪兽？！:smile:"
-author = "CHEN"
+
+  # "light" or "dark"
+  defaultTheme = "dark"
+  
+  # Subtitle for home
+  homeSubtitle = "Love && Peace"
+  
+  # Metadata mostly used in document's head
+  description = "奥特曼要打小怪兽？！"
+  keywords = "homepage, blog"
+  images = [""]
+  
+  # Enable to show reading time in minutes for posts
+  showReadingTime = false
+
+[author]
+  name = "CHEN"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "CHNURE"
+    subtitle = "Love && Peace"
+    keywords = ""
+    copyright = ""
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+
+    [languages.en.params.logo]
+      logoText = "hello friend"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+    [[menu.main]]
+	  identifier = "blog"
+	  name       = "Blog"
+	  url        = "/posts"
+	  
+	[[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+
