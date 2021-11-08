@@ -1,4 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+title = "CHENURE"
+theme = "hello-friend-ng"
+
+[params]
+description = "奥特曼要打小怪兽？！:smile:"
+author = "CHEN"
