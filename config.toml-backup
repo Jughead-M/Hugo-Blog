@@ -1,0 +1,50 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "CHENURE"
+theme = "hello-friend-ng"
+
+paginate = 10
+copyright = "MonstarLib"
+
+[author]
+	name = "CHEN"
+
+[params]
+	# "light" or "dark"
+	defaultTheme = "dark"
+
+	# Subtitle for home
+	homeSubtitle = "奥特曼要打小怪兽？！"
+  
+[taxonomies]
+	tag = "tags"
+    category = "categories" 
+	
+[params.footer]
+    trademark = true
+	#rss = true
+    copyright = true
+    author = true
+	topText = []
+
+[languages]
+	[languages.en]
+		title = "CHENURE"
+		subtitle = "Less Is More"
+		readOtherPosts = "Read other posts"
+
+	[languages.en.params.logo]
+		logoText = "Hello, Friends"
+		logoHomeLink = "/"
+
+[menu]
+	[[menu.main]]
+		identifier = "blog"
+		name = "Blog"
+		url = "/posts"
+	  
+	[[menu.main]]
+		identifier = "about"
+		name = "About"
+		url = "/about"
+
