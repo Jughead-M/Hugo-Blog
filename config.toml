@@ -20,7 +20,7 @@ paginate = 10
     category = "categories" 
 	
 [params.footer]
-    #trademark = true
+    trademark = true
 	rss = true
     copyright = true
     author = true
@@ -30,13 +30,9 @@ paginate = 10
   [languages.en]
     title = "CHENURE"
     subtitle = "Less Is More"
-   
-    #writtenBy = "Written by"
-    #readMore = "Read more"
+	description = "Tesla's Awesome Hugo Site"
+	author = "Nikola Tesla"
     readOtherPosts = "Read other posts"
-    newerPosts = "Newer posts"
-    olderPosts = "Older posts"
-    #minuteReadingTime = "min read"
 	
 	[languages.en.params.logo]
       logoText = "Hello, Friends"
