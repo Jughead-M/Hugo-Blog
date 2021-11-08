@@ -1,26 +1,16 @@
 baseURL = "/"
-languageCode = "en-us"
-#languageCode = "ch-zn"
+#languageCode = "en-us"
+languageCode = "ch-zn"
 title = "CHENURE"
 theme = "hello-friend-ng"
 paginate = 10
 
-enableRobotsTXT = true
-enableEmoji     = true
-
-[blackfriday]
-  hrefTargetBlank = true
-
 [params]
-
   # "light" or "dark"
   defaultTheme = "dark"
   
   # Subtitle for home
-  homeSubtitle = "奥特曼要打小怪兽？！:smile:"
-  
-  # Enable to show reading time in minutes for posts
-  showReadingTime = false
+  homeSubtitle = "奥特曼要打小怪兽？！"
 
 [author]
   name = "CHEN"
@@ -33,19 +23,23 @@ enableEmoji     = true
     trademark = true
     copyright = true
     author = true
+	topText = []
 
 [languages]
   [languages.en]
     title = "CHENURE"
     subtitle = "Less Is More"
-	author = "true"
    
-    #writtenBy = "Written by"
-    #readMore = "Read more"
-    #readOtherPosts = "Read other posts"
-    #newerPosts = "Newer posts"
-    #olderPosts = "Older posts"
-    #minuteReadingTime = "min read"
+    writtenBy = "Written by"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    minuteReadingTime = "min read"
+	
+	[languages.en.params.logo]
+      logoText = "Hello, Friends"
+      logoHomeLink = "/"
 
     [[menu.main]]
 	  identifier = "blog"
